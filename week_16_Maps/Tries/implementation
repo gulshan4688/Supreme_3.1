@@ -1,0 +1,21 @@
+#include <iostream>
+#include <unordered_map>
+using namespace std;
+class TrieNode{
+  public:
+  char value;
+  unordered_map<int,TrieNode> child;
+  bool isTerminal;
+
+  TrieNode(char v):value(v){
+    isTerminal=false;
+  };
+};
+void insertIntoTrie(string word,TrieNode* root){
+  // base
+  // 1 case solve krdo
+}
+int main()
+{
+    return 0;
+}
